@@ -12,13 +12,13 @@
     <section>
       <div class="profile">
         <div class="profile-pic-box">
-            <img src="certificate.jpg" alt="Your profile picture"><br>
+            <img src="certificate.jpg" alt="Your profile picture" id="img"> <br>
             <label for="fileupload"><i class="fa-solid fa-arrow-up-from-bracket"><input type="file" id="fileupload" hidden></i> Add a profile picture</label>
         </div>
       </div>
       <div class="set-up">
-        <form action="#">
-            <h1>Set up your profile</h1>
+        <form action="#" id="form">
+            <h1>Login your profile</h1>
             <div>
                 <label for="name">Enter your name</label><br>
                 <input type="text" placeholder="name" id="name"><br>
@@ -27,10 +27,12 @@
                 <label for="num">Enter your whatsapp no</label><br>
                 <input type="text" placeholder="Number" id="num"><br>
             </div>
-            <button>Save</button>
+            <button type="submit" id="submitbtn">Login</button>
         </form>
 
       </div>
     </section>
+
+    <script src="login.js"></script>
   </body>
 </html>
