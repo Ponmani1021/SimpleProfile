@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+    display: flex;
+    height: 100vh;
+}
+/* Profile Picture box */
+.profile{
+    width: 50%;
+    height: 100vh;
+    background-color: #c313db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-image: 
+    linear-gradient(to right, rgba(255,255,255,0.1) 1px,transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.1) 1px,transparent 1px);
+    background-size: 140px 140px;
+}
+.profile-pic-box{
+    background-color: #fff;
+    width: 350px;
+    height: 370px;
+    border-radius: 7px;
+    text-align: center;
+}
+.profile-pic-box img{
+    width: 60%;
+    height: 60%;
+    position: relative;
+    border-radius: 50%;
+    margin: 20px;
+}
+.profile-pic-box label{
+    font-size: 14px;
+}
+.profile-pic-box label i{
+    background-color: #aaa8a8;
+    border-radius: 50%;
+    padding: 10px;
+}
+/* Sign up box */
+.set-up{
+    width: 50%;
+    height: 100vh;
+    background-color: #fff;
+    border-radius: 3px;
+    display: flex;
+}
+.set-up form h1{
+    font-size: 30px;
+}
+.set-up form{
+  padding: 40px 60px;
+  margin: 130px 20px;
+
+}
+.set-up form div{
+    margin-top: 30px;
+    line-height: 40px;
+}
+.set-up form input{
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid lightslategrey;
+}
+.set-up form button{
+    width: 90%;
+    padding: 10px;
+    background-color: #c313db;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.set-up form label{
+    font-size: 14px;
+    color: black;
+}
