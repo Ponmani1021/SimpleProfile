@@ -14,6 +14,8 @@ form.addEventListener('submit',function(event){
     }
     else{
         alert("Invalid Username or Whatspp Number")
+        userName.style.borderColor = "red";
+        wNum.style.borderColor = "red";
     }
 })
 
@@ -34,6 +36,7 @@ submitbutton.addEventListener('click', () => {
     }
     else{
         alert('Please select an image first')
+
     }
 })
 
